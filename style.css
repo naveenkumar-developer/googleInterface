@@ -1,0 +1,136 @@
+/* RESET STYLE  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    --font-color: #3c4043;
+    --btns-background-color: #f8f9fa;
+    --link-color: #1a0dab;
+    --font-fam:"Manrope", sans-serif;
+}
+
+
+body{
+    font-family:var(--font-fam) ;
+    
+}
+/* HEADER  */
+.header_nav {
+    margin-top: 1.5rem;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+}
+
+.header_nav ul li {
+
+    font-size: 1.2rem;
+    list-style-type: none;
+    color: var(--font-color);
+}
+
+/* MAIN CONTENT  */
+main {
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 5.2rem;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .heading h1 .google_E{
+    display: inline-block;
+    transform: rotateZ(-20deg);
+  }
+
+
+
+.searchBar {
+    margin-top: 1.5rem;
+    width: 35rem;
+    height: 41px;
+    border: 1px solid var(--font-color);
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.searchBtn {
+    position: absolute;
+    left: 10px;
+
+}
+
+.voiceSearchLogo {
+    position: absolute;
+    right: 10px;
+}
+
+.googleLens {
+    position: absolute;
+    right: 30px;
+}
+
+.moreBtns {
+    margin-top: 2rem;
+}
+
+.moreBtns>* {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid var(--btns-background-color);
+    color: var(--font-color);
+    background-color: var(--btns-background-color);
+}
+
+.googleOffered {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    color: var(--font-color);
+}
+
+.googleOffered>p>a {
+    color: var(--link-color);
+}
+
+.footer_content {
+    padding-left: 20px;
+    height: 100px;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--btns-background-color);
+}
+
+.footer_content p {
+    color: var(--font-color);
+}
+
+.footer_links ul {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 20px;
+}
+
+.footer_links ul li {
+    list-style-type: none;
+}
+
+.footer_links ul li a {
+    color: var(--font-color);
+    text-decoration: none;
+}
